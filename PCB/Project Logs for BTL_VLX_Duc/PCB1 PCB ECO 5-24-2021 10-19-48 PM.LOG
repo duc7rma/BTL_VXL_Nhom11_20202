@@ -1,0 +1,73 @@
+Removed Pin From Net: NetName=VCC Pin=MD_CDS?-1
+Removed Pin From Net: NetName=GND Pin=MD_CDS?-2
+Removed Pin From Net: NetName=GND Pin=MD_RELAY?-4
+Removed Pin From Net: NetName=GND Pin=Node MCU?-2
+Removed Pin From Net: NetName=GND Pin=Node MCU?-9
+Removed Pin From Net: NetName=SDA Pin=Node MCU?-13
+Removed Pin From Net: NetName=SCL Pin=Node MCU?-14
+Removed Pin From Net: NetName=GND Pin=Node MCU?-17
+Removed Pin From Net: NetName=GND Pin=Node MCU?-25
+Removed Pin From Net: NetName=GND Pin=Node MCU?-29
+Removed Pin From Net: NetName=VCC Pin=Node MCU?-30
+Removed Member From Class: ClassName=BTL_VXL Member=MD_CDS?
+Removed Member From Class: ClassName=BTL_VXL Member=Node MCU?
+Change Component Designator: OldDesignator=DHT? NewDesignator=DHT11
+Change Component Designator: OldDesignator=JDC? NewDesignator=+12VDC
+Change Component Designator: OldDesignator=MD_LCD_I? NewDesignator=LCD1602_I2C
+Change Component Designator: OldDesignator=MD_RELAY? NewDesignator=MD_MQ5
+Change Component Designator: OldDesignator=Module LM? NewDesignator=MD LM2596 -5V
+Added Component: Designator=BZ(JP3-C1T)
+Add component (AddParameter): Name = "ComponentLink1 Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2 Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/6130xx143121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created by"; Value = "Karrer Zheng"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created Date"; Value = "29 March 2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "W¨¹rth Elektronik eiSos GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NoPins"; Value = "03"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "partNo"; Value = "613003143121"; VariantName = "[No Variations]"
+Added Component: Designator=LED1(LED-5 GRe)
+Add component (AddParameter): Name = "Value"; Value = "LED 3 ly Single Colour"; VariantName = "[No Variations]"
+Added Component: Designator=Node MCU(Node MCU Esp8265_DUC)
+Added Component: Designator=R?(RES-1/4W-SMALL)
+Add component (AddParameter): Name = "Value"; Value = "R1/4W - 1K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=BZ-1
+Added Pin To Net: NetName=VCC Pin=BZ-3
+Added Pin To Net: NetName=GND Pin=MD_MQ5-2
+Added Pin To Net: NetName=GND Pin=Node MCU-2
+Added Pin To Net: NetName=GND Pin=Node MCU-9
+Added Pin To Net: NetName=SDA Pin=Node MCU-13
+Added Pin To Net: NetName=SCL Pin=Node MCU-14
+Added Pin To Net: NetName=GND Pin=Node MCU-17
+Added Pin To Net: NetName=GND Pin=Node MCU-25
+Added Pin To Net: NetName=GND Pin=Node MCU-29
+Added Pin To Net: NetName=VCC Pin=Node MCU-30
+Added Pin To Net: NetName=VCC Pin=R?-1
+Change Net Name : Old Net Name=+12VDC New Net Name=Net+12VDC_1
+Added Pin To Net: NetName=A.OUT_MQ5 Pin=MD_MQ5-3
+Added Pin To Net: NetName=A.OUT_MQ5 Pin=Node MCU-16
+Added Pin To Net: NetName=A.OUT_MQ5 Pin=Node MCU-16
+Added Net: Name=A.OUT_MQ5
+Added Pin To Net: NetName=D.IN_BZ Pin=BZ-2
+Added Pin To Net: NetName=D.IN_BZ Pin=Node MCU-7
+Added Net: Name=D.IN_BZ
+Added Pin To Net: NetName=D.IN_LED Pin=LED1-2
+Added Pin To Net: NetName=D.IN_LED Pin=Node MCU-6
+Added Net: Name=D.IN_LED
+Added Pin To Net: NetName=D.OUT_DHT22 Pin=DHT11-2
+Added Pin To Net: NetName=D.OUT_DHT22 Pin=Node MCU-8
+Added Net: Name=D.OUT_DHT22
+Added Pin To Net: NetName=D.OUT_MQ5 Pin=MD_MQ5-4
+Added Pin To Net: NetName=D.OUT_MQ5 Pin=Node MCU-15
+Added Net: Name=D.OUT_MQ5
+Added Pin To Net: NetName=NetLED1_1 Pin=LED1-1
+Added Pin To Net: NetName=NetLED1_1 Pin=R?-2
+Added Net: Name=NetLED1_1
+Added Pin To Net: NetName=PGND Pin=+12VDC-2
+Added Pin To Net: NetName=PGND Pin=+12VDC-3
+Added Pin To Net: NetName=PGND Pin=MD LM2596 -5V-2
+Added Net: Name=PGND
+Added Member To Class: ClassName=BTL_VXL Member=Component BZ BUZZER
+Added Member To Class: ClassName=BTL_VXL Member=Component LED1 LED
+Added Member To Class: ClassName=BTL_VXL Member=Component Node MCU CH340
+Added Member To Class: ClassName=BTL_VXL Member=Component R? 330R

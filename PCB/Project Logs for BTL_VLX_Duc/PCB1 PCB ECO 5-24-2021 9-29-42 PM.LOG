@@ -1,0 +1,70 @@
+Added Component: Designator=DHT?(JP3-C1T)
+Add component (AddParameter): Name = "ComponentLink1 Description"; Value = "Manufacturer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2 Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.de/em/datasheet/6130xx143121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created by"; Value = "Karrer Zheng"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created Date"; Value = "29 March 2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "W¨¹rth Elektronik eiSos GmbH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "NoPins"; Value = "03"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "partNo"; Value = "613003143121"; VariantName = "[No Variations]"
+Added Component: Designator=JDC?(DC-IN)
+Add component (AddParameter): Name = "Value"; Value = "Jac DC"; VariantName = "[No Variations]"
+Added Component: Designator=MD_CDS?(CON4)
+Add component (AddParameter): Name = "Value"; Value = "Connector 4"; VariantName = "[No Variations]"
+Added Component: Designator=MD_LCD_I?(CON4)
+Add component (AddParameter): Name = "Value"; Value = "Connector 4"; VariantName = "[No Variations]"
+Added Component: Designator=MD_RELAY?(CON4)
+Add component (AddParameter): Name = "Value"; Value = "Connector 4"; VariantName = "[No Variations]"
+Added Component: Designator=Module LM?(LM2596 Module)
+Added Component: Designator=Node MCU?(Node MCU Esp8265)
+Added Pin To Net: NetName=+3V3 Pin=Node MCU?-26
+Added Net: Name=+3V3
+Added Pin To Net: NetName=+12VDC Pin=JDC?-1
+Added Pin To Net: NetName=+12VDC Pin=Module LM?-1
+Added Net: Name=+12VDC
+Added Pin To Net: NetName=A0_CDS Pin=MD_CDS?-4
+Added Pin To Net: NetName=A0_CDS Pin=Node MCU?-16
+Added Pin To Net: NetName=A0_CDS Pin=Node MCU?-16
+Added Net: Name=A0_CDS
+Added Pin To Net: NetName=CTR_FAN Pin=MD_RELAY?-3
+Added Pin To Net: NetName=CTR_FAN Pin=Node MCU?-12
+Added Net: Name=CTR_FAN
+Added Pin To Net: NetName=CTR_LIGHT Pin=MD_RELAY?-2
+Added Pin To Net: NetName=CTR_LIGHT Pin=Node MCU?-11
+Added Net: Name=CTR_LIGHT
+Added Pin To Net: NetName=D0_CDS Pin=MD_CDS?-3
+Added Pin To Net: NetName=D0_CDS Pin=Node MCU?-15
+Added Net: Name=D0_CDS
+Added Pin To Net: NetName=DHT Pin=DHT?-2
+Added Pin To Net: NetName=DHT Pin=Node MCU?-7
+Added Net: Name=DHT
+Added Pin To Net: NetName=GND_IN Pin=JDC?-2
+Added Pin To Net: NetName=GND_IN Pin=Module LM?-2
+Added Net: Name=GND_IN
+Added Pin To Net: NetName=GND Pin=DHT?-1
+Added Pin To Net: NetName=GND Pin=MD_CDS?-2
+Added Pin To Net: NetName=GND Pin=MD_LCD_I?-1
+Added Pin To Net: NetName=GND Pin=MD_RELAY?-4
+Added Pin To Net: NetName=GND Pin=Module LM?-3
+Added Pin To Net: NetName=GND Pin=Node MCU?-2
+Added Pin To Net: NetName=GND Pin=Node MCU?-9
+Added Pin To Net: NetName=GND Pin=Node MCU?-17
+Added Pin To Net: NetName=GND Pin=Node MCU?-25
+Added Pin To Net: NetName=GND Pin=Node MCU?-29
+Added Net: Name=GND
+Added Pin To Net: NetName=SCL Pin=MD_LCD_I?-4
+Added Pin To Net: NetName=SCL Pin=Node MCU?-14
+Added Net: Name=SCL
+Added Pin To Net: NetName=SDA Pin=MD_LCD_I?-3
+Added Pin To Net: NetName=SDA Pin=Node MCU?-13
+Added Net: Name=SDA
+Added Pin To Net: NetName=VCC Pin=DHT?-3
+Added Pin To Net: NetName=VCC Pin=MD_CDS?-1
+Added Pin To Net: NetName=VCC Pin=MD_LCD_I?-2
+Added Pin To Net: NetName=VCC Pin=MD_RELAY?-1
+Added Pin To Net: NetName=VCC Pin=Module LM?-4
+Added Pin To Net: NetName=VCC Pin=Node MCU?-30
+Added Net: Name=VCC
+Added Class: Name=BTL_VXL
+Added Room: Name=BTL_VXL
